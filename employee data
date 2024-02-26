@@ -3,21 +3,32 @@
 <head>
 <title>mahesh.table</title>
 <meta charset="UTF-8">
-<styletype="text/css">
-table,tr,td
-{
-border-collapse:collapse;
-border-style:double;
-border-color:green;
-width:200px;
-height:40px;
-background-color:gray;
-}
-td
-{
-text-align:center;
-color:pink;
-</style>
+        <style type ="text/css">
+        table,tr,td
+        {
+         border-collapse:collapse;
+         border-style:double;
+         border-color:pink;
+         width:350px;
+         height:40px;
+         background-color:pink;
+        }
+        td
+        {
+            text-align:center;
+            color:blue;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>ENO</td>
+                <td>ENAME</td>
+                <td>ESAL</td>
+                <td>EGRADE</td>
+            </tr>
+        </table>
 </head>
 <body>
 <table border='3' cellspacing='3' cellpadding='3' bg color="red" bordercolor="yellow">
