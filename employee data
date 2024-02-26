@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<title>mahesh.table</title>
+<meta charset="UTF-8">
+<styletype="text/css">
+table,tr,td
+{
+border-collapse:collapse;
+border-style:double;
+border-color:green;
+width:200px;
+height:40px;
+background-color:gray;
+}
+td
+{
+text-align:center;
+color:pink;
+</style>
+</head>
+<body>
+<table border='3' cellspacing='3' cellpadding='3' bg color="red" bordercolor="yellow">
+<caption align="up" width="300" height="100">EMPLOYEE DATA</caption>
+<tr>
+<td>ENO</td>
+<td>ENAME</td>
+<td>ESAAL</td>
+<td>EGRADE</td>
+</tr>
+<tr>
+<td>101</td>
+<td>RAJ</td>
+<td>43300</td>
+<td>A</td>
+</tr>
+<tr>
+<td>102</td>
+<td>JHON</td>
+<td>33000</td>
+<td>B</td>
+</tr>
+<tr>
+<td>103</td>
+<td>MAHESH</td>
+<td>47000</td>
+<td>A</td>
+</tr>
+</body>
+</html>
